@@ -1,6 +1,28 @@
-.child {
+.container, .container-two, .container-three, .container-four, .container-five {
   border-radius: 5px;
   padding: 10px;
   background-color: lightblue;
   border: 2px solid red;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.container-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.container-three {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 30px 30px 50px 30px 30px;
+}
+
+.container-four {
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    grid-template-rows: repeat(5 50px);
 }
