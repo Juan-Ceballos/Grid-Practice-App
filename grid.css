@@ -10,6 +10,10 @@
     grid-template-columns: repeat(4, 1fr);
 }
 
+.container div, .container-two div, .container-three div, .container-four div, .container-five div {
+    border: 1px solid black;
+}
+
 .container-two {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
