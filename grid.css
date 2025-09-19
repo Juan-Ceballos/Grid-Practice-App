@@ -10,7 +10,7 @@
     grid-template-columns: repeat(4, 1fr);
 }
 
-.container div, .container-two div, .container-three div, .container-four div, .container-five div {
+.container div, .container-two div, .container-three div, .container-four div {
     border: 1px solid black;
 }
 
@@ -52,7 +52,8 @@
 .two {
     grid-row: 1;
     grid-column: 2 / 4;
-    border: 2px solid black;
+    border: 10px solid black;
     border-radius: 5px;
     background-color: yellow;
+    width: 100%;
 }
